@@ -165,10 +165,8 @@ Next Steps
 
 
 
-Author
-
-Emmanuel Anyanwu
-
-GitHub Profile
+Author:  
+Emmanuel Anyanwu  
+[GitHub Profile](https://github.com/eanyanwu006)
 
   
