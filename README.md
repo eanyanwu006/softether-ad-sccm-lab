@@ -124,20 +124,34 @@ Validation Checklist
 
 Screenshots
 
+
+
 VPN Connection
 ![VPN Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
+
+
 
 Domain Join
 ![Domain Join](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
 
+
+
 SCCM Client Install
 ![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
+
+
+
 
 
 Next Steps
 	•	Add WSUS and Group Policy integration.
 	•	Automate VPN connection setup using PowerShell.
 	•	Expand the lab with additional site servers for redundancy.
+
+
+
+
+
 
 Author
 Emmanuel Anyanwu
