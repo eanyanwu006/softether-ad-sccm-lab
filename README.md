@@ -7,22 +7,19 @@ Overview
 🧩 Lab Overview Diagram
 
  Virtual Network Topology
- 
- Shows how the Domain Controller, VPN Server, and Remote Client are connected.
+ - Shows how the Domain Controller, VPN Server, and Remote Client are connected.
 
  SoftEther VPN and SCCM Workflow
+ - Visual overview of how VPN and SCCM interact for remote client management.
  
- Visual overview of how VPN and SCCM interact for remote client management.
-
  SoftEther VPN Server Configuration
-
-Displays Virtual Hub, Bridge, and connected VPN Client setup.
+- Displays Virtual Hub, Bridge, and connected VPN Client setup.
 
 <p align="center">
-  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/images/A_flowchart_infographic_titled_%22SoftEther_VPN_and_.png" alt="SoftEther VPN and SCCM Workflow" width="800">
+  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/images/A_flowchart_infographic_titled_"SoftEther_VPN.jpg" alt="SoftEther VPN and SCCM Workflow" width="800">
 </p>
 
-This project demonstrates how to build a remote management environment using **SoftEther VPN**, Active Directory (AD)**, and System Center Configuration Manager (SCCM).  
+This project demonstrates how to build a remote management environment using **SoftEther VPN, Active Directory (AD), and System Center Configuration Manager (SCCM).  
 It simulates how an IT administrator manages Windows clients from a corporate network while the clients connect securely over the internet through a VPN.
 
 Objectives
@@ -38,7 +35,6 @@ Objectives
 Platform: VMware Workstation  
 
 Virtual Machines
-
 1. DC01 (Domain Controller)
 - OS: Windows Server 2022  
 - Roles: AD DS, DNS, DHCP, SCCM  
