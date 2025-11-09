@@ -153,8 +153,11 @@ VPN Connection
 
 
 Next Steps
+
 	- Add WSUS and Group Policy integration.
+	
 	- Automate VPN connection setup using PowerShell.
+	
 	- Expand the lab with additional site servers for redundancy.
 
 
@@ -163,7 +166,9 @@ Next Steps
 
 
 Author
+
 Emmanuel Anyanwu
+
 GitHub Profile
 
   
