@@ -6,6 +6,18 @@ Overview
 
 🧩 Lab Overview Diagram
 
+ Virtual Network Topology
+ 
+ Shows how the Domain Controller, VPN Server, and Remote Client are connected.
+
+ SoftEther VPN and SCCM Workflow
+ 
+ Visual overview of how VPN and SCCM interact for remote client management.
+
+ SoftEther VPN Server Configuration
+
+Displays Virtual Hub, Bridge, and connected VPN Client setup.
+
 <p align="center">
   <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/images/A_flowchart_infographic_titled_%22SoftEther_VPN_and_.png" alt="SoftEther VPN and SCCM Workflow" width="800">
 </p>
