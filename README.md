@@ -16,7 +16,7 @@ Overview
 - Displays Virtual Hub, Bridge, and connected VPN Client setup.
 
 
-[<p align="center">
+<p align="center">
   <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_flowchart_infographic_titled_SoftEther_VPN.jpg" alt="SoftEther VPN and SCCM Workflow" width="800">
 </p>
 
