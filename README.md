@@ -2,7 +2,13 @@
 
 A virtual IT lab project using Windows Server 2022, SoftEther VPN**, and SCCM for remote domain setup, client management, and connectivity testing.
 
-## Overview
+Overview
+
+🧩 Lab Overview Diagram
+
+<p align="center">
+  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/images/A_flowchart_infographic_titled_%22SoftEther_VPN_and_.png" alt="SoftEther VPN and SCCM Workflow" width="800">
+</p>
 
 This project demonstrates how to build a remote management environment using **SoftEther VPN**, Active Directory (AD)**, and System Center Configuration Manager (SCCM).  
 It simulates how an IT administrator manages Windows clients from a corporate network while the clients connect securely over the internet through a VPN.
