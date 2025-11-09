@@ -1,26 +1,13 @@
-# softether-ad-sccm-lab
-A virtual IT lab project using Windows Server 2022, SoftEther VPN, and SCCM for remote domain setup, client management, and connectivity testing.
-
-Here’s the complete README.md — everything combined, polished, and formatted for GitHub.
-You can copy all of this and paste it directly into your README editor on GitHub.
-
-⸻
-
-
 # SoftEther VPN and SCCM Remote Domain Lab
 
-A virtual IT lab project using **Windows Server 2022**, **SoftEther VPN**, and **SCCM** for remote domain setup, client management, and connectivity testing.
-
----
+A virtual IT lab project using Windows Server 2022, SoftEther VPN**, and SCCM for remote domain setup, client management, and connectivity testing.
 
 ## Overview
 
-This project demonstrates how to build a remote management environment using **SoftEther VPN**, **Active Directory (AD)**, and **System Center Configuration Manager (SCCM)**.  
-It simulates how an IT administrator manages Windows clients from a corporate network while the client connects securely over the internet through VPN.
+This project demonstrates how to build a remote management environment using **SoftEther VPN**, Active Directory (AD)**, and System Center Configuration Manager (SCCM).  
+It simulates how an IT administrator manages Windows clients from a corporate network while the clients connect securely over the internet through a VPN.
 
----
-
-## Objectives
+Objectives
 
 - Set up a Windows Server 2022 domain controller.  
 - Configure SoftEther VPN for remote access.  
@@ -28,86 +15,78 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 - Deploy and test SCCM client installation remotely.  
 - Validate connectivity, file sharing, and management.
 
----
+ Lab Environment
 
-## Lab Environment
+Platform: VMware Workstation  
 
-**Platform:** VMware Workstation  
+Virtual Machines
 
-### Virtual Machines
+1. DC01 (Domain Controller)
+- OS: Windows Server 2022  
+- Roles: AD DS, DNS, DHCP, SCCM  
+- Domain: netfusion.internal  
+- IP: 192.168.140.128  
 
-#### 1. DC01 (Domain Controller)
-- **OS:** Windows Server 2022  
-- **Roles:** AD DS, DNS, DHCP, SCCM  
-- **Domain:** netfusion.internal  
-- **IP:** 192.168.140.128  
+2. VPN Server
+- OS: Windows 10 / Server  
+- Software: SoftEther VPN Server Manager  
+- Features: Dynamic DNS, SecureNAT, Local Bridge to internal LAN  
 
-#### 2. VPN Server
-- **OS:** Windows 10 / Server  
-- **Software:** SoftEther VPN Server Manager  
-- **Features:** Dynamic DNS, SecureNAT, Local Bridge to internal LAN  
+ 3. Remote Client
+- OS: Windows 10 Enterprise  
+- Connects via: SoftEther VPN Client  
+- Domain Joined To: netfusion.internal  
 
-#### 3. Remote Client
-- **OS:** Windows 10 or 11 Enterprise  
-- **Connects via:** SoftEther VPN Client  
-- **Domain Joined To:** netfusion.internal  
 
----
+Configuration Steps
 
-## Configuration Steps
-
-### 1. Domain Setup
-- Installed and configured **Active Directory Domain Services (AD DS)**.  
-- Added **DNS** and **DHCP** roles.  
+1. Domain Setup
+- Installed and configured **Active Directory Domain Services (AD DS).  
+- Added DNS and **DHCP** roles.  
 - Created domain users and groups.  
 
-### 2. SoftEther VPN Setup
-- Installed **SoftEther VPN Server**.  
-- Created a **Virtual Hub** named `CprpVPN`.  
-- Enabled **SecureNAT** and **Dynamic DNS** (`vpn303926760.softether.net`).  
+ 2. SoftEther VPN Setup
+- Installed SoftEther VPN Server.  
+- Created a **Virtual Hub named `CprpVPN`.  
+- Enabled SecureNAT and Dynamic DNS (`vpn303926760.softether.net`).  
 - Bridged the Virtual Hub to the internal LAN adapter.  
-- Created a VPN user and verified connection from the remote client.  
+- Created a VPN user and verified the connection from the remote client.  
 
-### 3. Domain Join via VPN
+3. Domain Join via VPN
 - Verified connectivity to `DC01.netfusion.internal`.  
 - Joined the external client to the domain successfully.  
 - Logged in using domain credentials after restarting.  
 
-### 4. File and Folder Access
+4. File and Folder Access
 - Accessed shared folders such as:  
 
 \DC01.netfusion.internal\New_Boot
 
 - Adjusted permissions to allow remote domain users access.  
 
-### 5. SCCM Client Installation
-- Installed and configured **SCCM** on `DC01`.  
+5. SCCM Client Installation
+- Installed and configured SCCM on `DC01`.  
 - Pushed the SCCM client to the remote system.  
 - Verified installation and site assignment.  
 
----
+Troubleshooting Highlights
 
-## Troubleshooting Highlights
-
-- Fixed **“Virtual Hub does not exist”** error by correcting the hub name in SoftEther.  
-- Resolved domain login issues by reconnecting VPN.  
+- Fixed the Virtual Hub does not exist error by correcting the hub name in SoftEther.  
+- Resolved domain login issues by reconnecting to the VPN.  
 - Adjusted share permissions for remote access.  
 - Confirmed DNS resolution and connectivity before SCCM deployment.  
 
----
-
-## Tools and Technologies
+Tools and Technologies
 
 - VMware Workstation  
 - Windows Server 2022  
 - Windows 10 / 11 Enterprise  
 - SoftEther VPN  
 - Active Directory / DNS / DHCP  
-- System Center Configuration Manager (SCCM)  
+- System Center Configuration Manager (SCCM/MECM)  
 
----
 
-## Skills Demonstrated
+Skills Demonstrated
 
 - VPN configuration and NAT traversal  
 - Windows Server administration  
@@ -115,9 +94,7 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 - SCCM client deployment and troubleshooting  
 - Network connectivity and permission control  
 
----
-
-## Validation Checklist
+Validation Checklist
 
 | Task | Status |
 |------|---------|
@@ -127,9 +104,8 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 | SCCM client deployed remotely | ✅ |
 | Communication between client and DC verified | ✅ |
 
----
 
-## Screenshots (To Add Later)
+Screenshots (To Add Later)
 
 You can upload your screenshots to a folder named `/images`, then reference them like this:
 
@@ -139,18 +115,13 @@ You can upload your screenshots to a folder named `/images`, then reference them
 ![SCCM Client Install](images/sccm-install.jpg)
 
 
-⸻
-
 Next Steps
 	•	Add WSUS and Group Policy integration.
 	•	Automate VPN connection setup using PowerShell.
 	•	Expand the lab with additional site servers for redundancy.
 
-⸻
-
 Author
-
 Emmanuel Anyanwu
-GitHub Profile￼
+GitHub Profile
 
   
