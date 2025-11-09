@@ -126,13 +126,14 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 
 ## Screenshots
 
-### SCCM Client Install
-
-Image: `A_diagram_showcases_a_virtual_network_lab_topology.jpg`
+### VPN Connection
+![VPN Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
 
 ### Domain Join
+![Domain Join](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
 
-Image: `A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg`
+### SCCM Client Install
+![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
 
 ### VPN Connection
 
