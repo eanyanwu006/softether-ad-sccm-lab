@@ -15,9 +15,12 @@ Overview
  SoftEther VPN Server Configuration
 - Displays Virtual Hub, Bridge, and connected VPN Client setup.
 
+
 [<p align="center">
   <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_flowchart_infographic_titled_SoftEther_VPN.jpg" alt="SoftEther VPN and SCCM Workflow" width="800">
-</p>](https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_flowchart_infographic_titled_SoftEther_VPN.jpg)
+</p>
+
+
 
 This project demonstrates how to build a remote management environment using **SoftEther VPN, Active Directory (AD), and System Center Configuration Manager (SCCM).  
 It simulates how an IT administrator manages Windows clients from a corporate network while the clients connect securely over the internet through a VPN.
