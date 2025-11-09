@@ -122,14 +122,16 @@ Validation Checklist
 | Communication between client and DC verified | ✅ |
 
 
-Screenshots (To Add Later)
+## Screenshots
 
-You can upload your screenshots to a folder named `/images`, then reference them like this:
+### VPN Connection
+![VPN Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
 
-```markdown
-![VPN Connection](images/vpn-connected.jpg)
-![Domain Join](images/domain-join.jpg)
-![SCCM Client Install](images/sccm-install.jpg)
+### Domain Join
+![Domain Join](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
+
+### SCCM Client Install
+![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
 
 
 Next Steps
