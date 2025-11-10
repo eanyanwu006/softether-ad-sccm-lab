@@ -127,6 +127,11 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 - Joined the external client to the domain successfully  
 - Logged in using domain credentials after restart  
 
+<p align="center">
+  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_diagram_depicts_a_network_architecture_d.png" alt="External Client Domain Join via SoftEther VPN" width="800">
+</p>
+
+
 ---
 
 ### 4. File and Folder Access
