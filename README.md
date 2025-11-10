@@ -127,24 +127,21 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 - Joined the external client to the domain successfully  
 - Logged in using domain credentials after restart  
 
-<p align="center">
-  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_diagram_illustrates_SCCM_communication.jpg" alt="External Client Domain Join" width="700">
-</p>
-
 ---
 
 ### 4. File and Folder Access
 - Accessed shared folders such as `\\DC01.netfusion.internal\New_Boot`  
 - Adjusted permissions for remote users  
 
-### 5. SCCM Client Installation
+### 5. SCCM Client Communication
 - Installed and configured **SCCM** on DC01  
 - Pushed SCCM client to the remote machine  
 - Verified installation and client communication  
 
 <p align="center">
-  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_diagram_illustrates_SCCM_communication_b.jpg" alt="SCCM Communication Over VPN" width="800">
+  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_diagram_illustrates_SCCM_communication.jpg" alt="External Client Domain Join" width="700">
 </p>
+
 
 ---
 
