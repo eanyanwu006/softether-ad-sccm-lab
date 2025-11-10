@@ -190,6 +190,20 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 
 ---
 
+
+
+## Screenshots
+
+### SCCM Client Install
+![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
+
+### VPN Connection
+![VPN Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
+
+### Domain Join
+![Domain Join](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
+
+
 ## Next Steps
 
 - Add WSUS and Group Policy for patching  
