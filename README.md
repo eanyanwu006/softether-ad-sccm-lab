@@ -11,7 +11,7 @@ A virtual IT lab project using **Windows Server 2022**, **SoftEther VPN**, and *
 </p>
 
 This project demonstrates how to build a remote management environment using **SoftEther VPN**, **Active Directory (AD)**, and **System Center Configuration Manager (SCCM)**.  
-It simulates how an IT administrator manages Windows clients from a corporate network while the client connects securely over the internet through VPN.
+It simulates how an IT administrator manages Windows clients from a corporate network while the clients connect securely over the internet through a VPN.
 
 ---
 
@@ -61,7 +61,7 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 - Created a **Virtual Hub** named `CprpVPN`.  
 - Enabled **SecureNAT** and **Dynamic DNS** (`vpn303926760.softether.net`).  
 - Bridged the Virtual Hub to the internal LAN adapter.  
-- Created a VPN user and verified connection from the remote client.  
+- Created a VPN user and verified the connection from the remote client.  
 
 ### 3. Domain Join via VPN
 - Verified connectivity to `DC01.netfusion.internal`.  
@@ -85,7 +85,7 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 ## Troubleshooting Highlights
 
 - Fixed **“Virtual Hub does not exist”** error by correcting the hub name in SoftEther.  
-- Resolved domain login issues by reconnecting VPN.  
+- Resolved domain login issues by reconnecting to the VPN.  
 - Adjusted share permissions for remote access.  
 - Confirmed DNS resolution and connectivity before SCCM deployment.  
 
@@ -126,20 +126,18 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
 
 ## Screenshots
 
+### SCCM Client Install
+![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
+
 ### VPN Connection
 ![VPN Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
 
 ### Domain Join
 ![Domain Join](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
 
-### SCCM Client Install
-![SCCM Client Install](A_diagram_showcases_a_virtual_network_lab_topology.jpg)
 
-### VPN Connection
 
-Image: `A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg`
 
-(These are stored in the repo and can be embedded or viewed directly.)
 
 ---
 
