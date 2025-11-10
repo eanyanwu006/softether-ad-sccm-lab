@@ -1,4 +1,4 @@
-# SoftEther VPN and SCCM Remote Domain Lab
+# SoftEther VPN and MECM/SCCM Remote Domain Lab
 
 Windows Server 2022 lab with SoftEther VPN and MECM/SCCM for remote domain setup and client management.
 
