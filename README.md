@@ -74,7 +74,7 @@ It simulates how an IT administrator manages Windows clients from a corporate ne
      `vpn303926760.softether.net`  
 
 4. **Created a Local Bridge Connection**  
-   - Selected the internal network adapter connected to my lab (for example `VMnet1`)  
+   - Selected the internal network adapter connected to my lab (for example, `VMnet1`)  
    - Bridged the Virtual Hub to the internal LAN to allow domain traffic  
 
 5. **Allowed Remote Access**  
@@ -128,7 +128,7 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 - Logged in using domain credentials after restart  
 
 <p align="center">
-  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_screenshot_displays_a_Domain_Join_operation.jpg" alt="External Client Domain Join" width="700">
+  <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_digital_diagram_illustrates_SCCM_communication.jpg" alt="External Client Domain Join" width="700">
 </p>
 
 ---
