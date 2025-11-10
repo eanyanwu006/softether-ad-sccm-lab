@@ -1,6 +1,6 @@
 # SoftEther VPN and SCCM Remote Domain Lab
 
-Windows Server 2022 lab with SoftEther VPN and SCCM for remote domain setup and client management.
+Windows Server 2022 lab with SoftEther VPN and MECM/SCCM for remote domain setup and client management.
 
 ---
 
@@ -10,7 +10,7 @@ Windows Server 2022 lab with SoftEther VPN and SCCM for remote domain setup and 
   <img src="https://github.com/eanyanwu006/softether-ad-sccm-lab/raw/main/A_flowchart_infographic_titled_SoftEther_VPN.jpg" alt="SoftEther VPN and SCCM Workflow" width="800">
 </p>
 
-This project demonstrates how I built a remote management environment using **SoftEther VPN**, **Active Directory (AD)**, and **System Center Configuration Manager (SCCM)**.  
+This project demonstrates how I built a remote management environment using **SoftEther VPN**, **Active Directory (AD)**, and **Microsoft Endpoint Configuration Manager (MECM/SCCM)**.  
 It simulates how an IT administrator manages Windows clients from a corporate network while clients connect securely over the internet through a VPN.
 
 ---
@@ -138,8 +138,8 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 - Accessed shared folders such as `\\DC01.netfusion.internal\New_Boot`  
 - Adjusted permissions for remote users  
 
-### 5. SCCM Client Communication
-- Installed and configured **SCCM** on DC01  
+### 5. MECM/SCCM Client Communication
+- Installed and configured **MECM/SCCM** on DC01  
 - Pushed SCCM client to the remote machine  
 - Verified installation and client communication  
 
@@ -166,7 +166,7 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 - Windows 10 / 11 Enterprise  
 - SoftEther VPN  
 - Active Directory / DNS / DHCP  
-- System Center Configuration Manager (SCCM)  
+- Microsoft Endpoint Configuration Manager (MECM/SCCM)  
 
 ---
 
@@ -202,7 +202,7 @@ The Virtual Hub, Local Bridge, SecureNAT, DDNS, and NAT Traversal features all w
 ### Softether VPN Client Connection 
 ![Softether VPN Client Connection](A_screenshot_of_SoftEther_VPN_Server_Manager_application.jpg)
 
-### Softether VPN Server Manager Local Bridge configuration
+### SoftEther VPN Server Manager Local Bridge configuration
 ![ Softether VPN Server Manager Local Bridge configuration](A_diagram_in_the_image_illustrates_the_SoftEther_VPN.jpg)
 
 
