@@ -1,6 +1,6 @@
 # SoftEther VPN and SCCM Remote Domain Lab
 
-A virtual IT lab project using **Windows Server 2022**, **SoftEther VPN**, and **SCCM** for remote domain setup, client management, and connectivity testing.
+Windows Server 2022 lab with SoftEther VPN and SCCM for remote domain setup and client management.
 
 ---
 
